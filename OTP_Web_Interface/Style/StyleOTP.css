@@ -1,0 +1,119 @@
+body{
+    background-image:url('../Images/Crittografia2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    border: solid 0.1px black;
+}
+
+#DivForm{
+    height: auto;
+    width: 500px;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+    text-align: center;
+    border: solid 2px #0d6efd;
+    border-radius: 5%;
+    
+    opacity: 0.95;
+
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.errorBlock{
+    border: solid 2px red;
+    background-color: lightcoral;
+    color: darkred;
+    text-align: center;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+}
+
+
+#title{
+    font-size: 60px;
+}
+
+#btnLogin{
+    border: solid 2px #0d6efd;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    width: 30%;
+    height: 40px;
+    transition-duration: 0.3s;
+}
+
+#btnLogin:hover{
+    background-color: #4d94ff;
+    transition-duration: 0.3s;
+}
+
+#userMail{
+    color: #1265e0;
+}
+
+@media screen and (max-width: 450px){
+    body{
+        background-image:url('../Images/Crittografia2.jpg');
+        background-repeat: no-repeat;
+        background-size:auto;
+        justify-content: center;
+    }
+    
+    #DivForm{
+        height: auto;
+        width: 85vw;
+        background-color: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        text-align: center;
+        border: solid 2px #0d6efd;
+        border-radius: 5%;
+        
+        opacity: 0.95;
+    
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    
+    #title{
+        font-size: 60px;
+    }
+    
+    #btnLogin{
+        border: solid 2px #0d6efd;
+        border-radius: 5px;
+        background-color: #0d6efd;
+        color: white;
+        width: 50%;
+        height: 45px;
+        transition-duration: 0.3s;
+    }
+    
+    #btnLogin:hover{
+        background-color: #4d94ff;
+        transition-duration: 0.3s;
+    }
+    
+    #userMail{
+        color: #1265e0;
+    }
+}

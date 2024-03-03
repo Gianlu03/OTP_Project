@@ -1,0 +1,100 @@
+body{
+    background-image:url('../Images/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#UserInfo{
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: solid rgb(130, 178, 250)2px;*/
+    opacity: 0.9;
+    margin-top: 10%;
+}
+
+#formUser{
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    border: solid rgb(130, 178, 250)2px;
+    border-radius: 5%;
+    display: block;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 30%;
+    text-align: center;
+}
+
+.errorBlock{
+    display: block;
+    border: solid 2px red;
+    background-color: lightcoral;
+    color: darkred;
+    text-align: center;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+    
+}
+
+#title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #0d6efd;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#btnLogin{
+    border: solid 2px #0d6efd;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    width: 30%;
+    font-size: 1.4rem;
+    height: 50px;
+    transition-duration: 0.3s;
+}
+
+#btnLogin:hover{
+    background-color: #4d94ff;
+    transition-duration: 0.3s;
+}
+
+
+
+@media screen and (max-width: 450px){
+    body{
+        background-image:url('../Images/wallpaperPhone.jpg');
+        background-repeat: no-repeat;
+        background-size:auto;
+    }
+
+    #UserInfo{
+        display: block;
+        text-align: center;
+        width: 360px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: solid rgb(130, 178, 250)2px;*/
+        margin-top: 25%;
+        opacity: 0.95;
+    }
+
+    #formUser{
+        background-color: white;
+        border: solid rgb(130, 178, 250)2px;
+        display: block;
+        width: 85%;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 50px;   
+    }
+}
