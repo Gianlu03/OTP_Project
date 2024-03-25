@@ -1,3 +1,5 @@
+# School Project
+
 The teacher's assignment in 2021 was to develop a free choice project including a crypthography algorithm (in pairs, mate: @MarcoCalmetti).
 
 We agreed on creating a simple web application, which requests the user(registered to the DB) to insert his email and password to log in.
